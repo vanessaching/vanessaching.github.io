@@ -1,8 +1,9 @@
+/* Base styles */
 body {
   margin: 0;
-  font-family: 'Helvetica', sans-serif;
-  background: linear-gradient(to bottom, #1a1a1a, #2b0208, #150606);
-  color: #eee;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #120303; /* very dark red */
+  color: #ffffff;
 }
 
 .container {
@@ -11,11 +12,13 @@ body {
   padding: 2rem;
 }
 
+/* Header / Intro */
 header.intro {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 header .text {
@@ -23,35 +26,48 @@ header .text {
 }
 
 header .text h1 {
-  font-size: 2.5rem;
-  color: #f87171;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ff0000;
   margin-bottom: 1rem;
 }
 
 header .text p span {
-  font-weight: bold;
-  color: #fca5a5;
+  font-weight: 600;
+  color: #ff4d4d;
 }
 
 header .btn {
   display: inline-block;
   margin-top: 1rem;
   margin-right: 0.5rem;
-  padding: 0.5rem 1rem;
-  background: #f87171;
+  padding: 0.6rem 1.2rem;
+  background: #b30000;
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+header .btn:hover {
+  background: #ff0000;
 }
 
 header .links a {
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.5rem 1rem;
-  background: rgba(58, 11, 15, 0.6);
-  color: #eee;
+  background: rgba(179, 0, 0, 0.6);
+  color: #ffffff;
   text-decoration: none;
   border-radius: 5px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+header .links a:hover {
+  background: rgba(255, 0, 0, 0.8);
 }
 
 header .photo {
@@ -62,17 +78,22 @@ header .photo {
 header .photo img {
   width: 200px;
   height: auto;
-  border-radius: 15px;
-  border: 2px solid #f87171;
+  border-radius: 10px;
+  border: 2px solid #ff0000;
 }
 
+/* Sections */
 section {
   margin-top: 3rem;
 }
 
 section h2 {
-  color: #f87171;
+  color: #ff0000;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
+  border-bottom: 2px solid #ff0000;
+  display: inline-block;
+  padding-bottom: 0.2rem;
 }
 
 .cards {
@@ -81,18 +102,30 @@ section h2 {
 }
 
 .card {
-  background: rgba(21, 5, 6, 0.6);
-  border: 1px solid #f87171;
+  background: rgba(48, 0, 0, 0.8);
+  border: 1px solid #b30000;
   border-radius: 10px;
-  padding: 1rem;
+  padding: 1rem 1.2rem;
+  transition: transform 0.3s ease, background 0.3s ease;
 }
 
+.card:hover {
+  transform: translateY(-3px);
+  background: rgba(48, 0, 0, 1);
+}
+
+/* Footer */
 footer {
   margin-top: 3rem;
-  padding-top: 1rem;
-  border-top: 1px solid #f87171;
+  padding-top: 1.5rem;
+  border-top: 1px solid #b30000;
 }
+
 footer a {
-  color: #f87171;
+  color: #ff4d4d;
   text-decoration: underline;
+}
+
+footer p {
+  margin: 0.3rem 0;
 }

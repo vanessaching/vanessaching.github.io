@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanessa Ching Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header / Intro -->
+    <header class="intro">
+      <div class="text">
+        <h1>Vanessa Ching</h1>
+        <p><strong>Hi! I'm Vanessa Ching</strong>, a second-year Computer Science major and Film minor at Johns Hopkins University. I’m passionate about programming across all fields — especially <span>education</span>, <span>accessibility</span>, and <span>entertainment</span>.</p>
+        <a href="Vanessa_Ching_Resume.pdf" class="btn">Download Resume</a>
+        <div class="links">
+          <a href="#" class="btn"><i class="bi bi-github"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/vanessa-ching-557796240" class="btn"><i class="bi bi-linkedin"></i> LinkedIn</a>
+          <a href="#" class="btn">More (add later)</a>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="me.jpg" alt="Vanessa Ching">
+      </div>
+    </header>
+
+    <!-- Experience -->
+    <section>
+      <h2>Experience</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Frenalytics — Software Intern</h3>
+          <p>(details coming — click to expand later)</p>
+        </div>
+        <div class="card">
+          <h3>SCAI Lab — Research Assistant</h3>
+          <p>(details coming — click to expand later)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Readezzy Reading Assistant</h3>
+          <p>(project details & images to be added)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="cards">
+        <div class="card">
+          <h4>Languages</h4>
+          <p>Python · Java · C · C++ · JavaScript · PHP · SQL · HTML · CSS · x86-64</p>
+        </div>
+        <div class="card">
+          <h4>Frameworks & Tools</h4>
+          <p>NumPy · Matplotlib · Pygame · WordPress · MySQL · XAMPP · Git · GitHub · Fusion 360 · Autodesk Inventor · TinkerCAD · Linux</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <footer>
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:vanessazqching@gmail.com">vanessazqching@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/vanessa-ching-557796240">vanessa-ching-557796240</a></p>
+      <p>© <span id="year"></span> Vanessa Ching</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

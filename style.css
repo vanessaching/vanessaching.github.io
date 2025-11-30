@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  background: linear-gradient(to bottom, #1a1a1a, #2b0208, #150606);
+  color: #eee;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+header.intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+header .text {
+  flex: 2;
+}
+
+header .text h1 {
+  font-size: 2.5rem;
+  color: #f87171;
+  margin-bottom: 1rem;
+}
+
+header .text p span {
+  font-weight: bold;
+  color: #fca5a5;
+}
+
+header .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #f87171;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+header .links a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(58, 11, 15, 0.6);
+  color: #eee;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+header .photo {
+  flex: 1;
+  text-align: center;
+}
+
+header .photo img {
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  border: 2px solid #f87171;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+section h2 {
+  color: #f87171;
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: rgba(21, 5, 6, 0.6);
+  border: 1px solid #f87171;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f87171;
+}
+footer a {
+  color: #f87171;
+  text-decoration: underline;
+}

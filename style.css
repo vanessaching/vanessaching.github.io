@@ -90,13 +90,14 @@ h1 {
   font-size: 4rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
+  color: #ffffff;
 }
 
 h2 {
   font-size: 2.3rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: #e7d3d3;
+  color: #ffffff;
 }
 
 h3 {
@@ -104,7 +105,7 @@ h3 {
   font-weight: 600;
   margin-bottom: 0.5rem;
   margin-top: 0;
-  color: #e7d3d3;
+  color: #ffffff;
 }
 
 h4 {
@@ -112,7 +113,7 @@ h4 {
   font-weight: 600;
   margin-bottom: 0.5rem;
   margin-top: 0;
-  color: #e7d3d3;
+  color: #ffffff;
 }
 
 section h2 {

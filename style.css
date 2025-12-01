@@ -35,7 +35,7 @@ nav .nav-container {
   margin: 0 auto;
   padding: 0 2rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -43,12 +43,12 @@ nav .nav-brand {
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   font-weight: 600;
-  color: #f2f2f2;
+  color: #ffffff;
   text-decoration: none;
 }
 
 nav .nav-brand:hover {
-  color: #f2f2f2;
+  color: #ffffff;
 }
 
 nav .nav-links {
@@ -58,7 +58,7 @@ nav .nav-links {
 }
 
 nav a.nav-link {
-  color: #f2f2f2;
+  color: #ffffff;
   text-decoration: none;
   font-family: "Playfair Display", serif;
   font-size: 0.95rem;
@@ -122,7 +122,7 @@ section h2 {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  color: #f2f2f2;
+  color: #ffffff;
 }
 
 /* ---------------------------------------
@@ -144,7 +144,7 @@ header .text {
 header .text p {
   font-size: 1.05rem;
   max-width: 550px;
-  color: #e8e8e8;
+  color: #ffffff;
 }
 
 header .text span {
@@ -234,7 +234,29 @@ header .photo img {
   border: 1px solid rgba(255,255,255,0.2);
   border-radius: 20px;
   font-size: 0.9rem;
-  color: #f2f2f2;
+  color: #ffffff;
+}
+
+/* Card header with date */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.card-header h3 {
+  margin: 0;
+  flex: 1;
+}
+
+.card-date {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  color: #ffffff;
+  opacity: 0.7;
+  white-space: nowrap;
+  margin-left: 1rem;
 }
 
 /* ---------------------------------------
@@ -250,7 +272,7 @@ footer {
 
 footer p {
   font-family: 'Montserrat', sans-serif;
-  color: #f2f2f2;
+  color: #ffffff;
 }
 
 footer a {

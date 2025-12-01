@@ -3,7 +3,7 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
-  background: #2A0203; /* deep wine red */
+  background: #2A0203;
   color: #f2f2f2;
   scroll-behavior: smooth;
 }
@@ -11,7 +11,7 @@ body {
 /* NAVBAR */
 nav {
   width: 100%;
-  background: #4B0A12; /* burgundy */
+  background: #4B0A12;
   padding: 18px 40px;
   position: fixed;
   top: 0;
@@ -34,53 +34,38 @@ nav a:hover {
 
 /* SECTION */
 .section {
-  padding: 120px 40px 60px;
+  padding: 140px 40px 60px; /* more top padding for navbar */
   max-width: 900px;
   margin: auto;
+}
+
+/* Profile photo & intro */
+.intro-section {
+  text-align: center;
+}
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.social-links {
+  margin-top: 15px;
+}
+.social-links a {
+  color: #f8c7c7;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.social-links a:hover {
+  text-decoration: underline;
 }
 
 /* CATEGORY BOXES */
 .category-box {
   border: 1px solid rgba(255,255,255,0.12);
-  padding: 22px;
+  padding: 25px 22px;
   border-radius: 14px;
-  margin-bottom: 25px;
-  background: rgba(255,255,255,0.05);
-}
-
-h2 {
-  font-family: "Playfair Display", serif;
-  color: #f8c7c7;
-  margin-bottom: 15px;
-  font-size: 2.4rem;
-}
-
-h3 {
-  font-family: "Playfair Display", serif;
-  margin-top: 0;
-  color: #e7d3d3;
-}
-
-/* SKILL TAGS */
-.skill-tag {
-  display: inline-block;
-  padding: 6px 12px;
-  border: 1.5px solid #a84c5c; /* lighter red */
-  border-radius: 10px;
-  margin: 6px;
-  font-size: 0.95rem;
-  background: rgba(255,255,255,0.06);
-}
-
-/* CONTACT BOX */
-.contact-box {
-  border: 1px solid rgba(255,255,255,0.12);
-  padding: 20px;
-  border-radius: 12px;
-  background: rgba(255,255,255,0.06);
-  max-width: 600px;
-}
-
-.contact-box a {
-  color: #f8c7c7;
-}
+  margin-bottom: 30px;
+  background: rgba(255,255,255,

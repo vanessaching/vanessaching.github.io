@@ -194,7 +194,7 @@ header .photo {
 
 header .photo img {
   width: 260px;
-  border-radius: 20px;
+  border-radius: 0;
   border: 3px solid #ffffff;
   filter: brightness(0.92);
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);

@@ -42,6 +42,10 @@ nav .nav-brand {
   text-decoration: none;
 }
 
+nav .nav-brand:hover {
+  color: #f2f2f2;
+}
+
 nav .nav-links {
   display: flex;
   gap: 2.5rem;
@@ -51,7 +55,7 @@ nav .nav-links {
 nav a.nav-link {
   color: #f2f2f2;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 0.95rem;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -59,12 +63,13 @@ nav a.nav-link {
 
 nav a.nav-link:hover {
   color: #f8c7c7;
+  text-decoration: none;
 }
 
 .container {
   max-width: 1000px;
   margin: auto;
-  padding: 3rem 2rem;
+  padding: 6rem 2rem 3rem 2rem;
 }
 
 /* ---------------------------------------

@@ -1,73 +1,106 @@
-/* Base styles */
+/* ---------------------------------------
+   BASE STYLES (Editorial + Burgundy Theme)
+----------------------------------------- */
+
 body {
   margin: 0;
+  background-color: #2A0203; /* deep wine red */
+  color: #f2f2f2;
   font-family: 'Montserrat', sans-serif;
-  background-color: #120303; /* very dark red */
-  color: #ffffff;
+  line-height: 1.6;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
-  padding: 2rem;
+  padding: 3rem 2rem;
 }
 
-/* Header / Intro */
+/* ---------------------------------------
+   TYPOGRAPHY
+----------------------------------------- */
+
+h1, h2, h3, h4 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #e7d3d3;
+}
+
+section h2 {
+  border-bottom: none;
+}
+
+/* ---------------------------------------
+   HEADER / INTRO
+----------------------------------------- */
+
 header.intro {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
   align-items: center;
-  margin-bottom: 3rem;
+  gap: 3rem;
+  margin-bottom: 4rem;
 }
 
 header .text {
   flex: 2;
 }
 
-header .text h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  color: #ff0000;
-  margin-bottom: 1rem;
+header .text p {
+  font-size: 1.05rem;
+  max-width: 550px;
+  color: #e8e8e8;
 }
 
-header .text p span {
+header .text span {
   font-weight: 600;
-  color: #ff4d4d;
+  color: #f8c7c7;
 }
 
 header .btn {
   display: inline-block;
-  margin-top: 1rem;
-  margin-right: 0.5rem;
-  padding: 0.6rem 1.2rem;
-  background: #b30000;
-  color: white;
+  padding: 0.8rem 1.6rem;
+  background: #4B0A12; /* elegant burgundy */
+  color: #fff;
+  border-radius: 25px;
   text-decoration: none;
-  border-radius: 5px;
-  font-weight: 600;
-  transition: background 0.3s ease;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  transition: 0.3s ease;
 }
 
 header .btn:hover {
-  background: #ff0000;
+  background: #6f141f;
 }
 
 header .links a {
   display: inline-block;
-  margin-top: 0.5rem;
-  padding: 0.5rem 1rem;
-  background: rgba(179, 0, 0, 0.6);
-  color: #ffffff;
+  margin-right: 0.5rem;
+  margin-top: 0.8rem;
+  padding: 0.7rem 1.4rem;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 25px;
+  color: white;
+  font-weight: 500;
   text-decoration: none;
-  border-radius: 5px;
-  font-weight: 600;
-  transition: background 0.3s ease;
+  transition: 0.3s ease;
 }
 
 header .links a:hover {
-  background: rgba(255, 0, 0, 0.8);
+  background: rgba(255,255,255,0.18);
 }
 
 header .photo {
@@ -76,56 +109,49 @@ header .photo {
 }
 
 header .photo img {
-  width: 200px;
-  height: auto;
-  border-radius: 10px;
-  border: 2px solid #ff0000;
+  width: 260px;
+  border-radius: 20px;
+  border: none;
+  filter: brightness(0.92);
 }
 
-/* Sections */
-section {
-  margin-top: 3rem;
-}
-
-section h2 {
-  color: #ff0000;
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #ff0000;
-  display: inline-block;
-  padding-bottom: 0.2rem;
-}
+/* ---------------------------------------
+   CARDS
+----------------------------------------- */
 
 .cards {
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .card {
-  background: rgba(48, 0, 0, 0.8);
-  border: 1px solid #b30000;
-  border-radius: 10px;
-  padding: 1rem 1.2rem;
-  transition: transform 0.3s ease, background 0.3s ease;
+  background: rgba(255,255,255,0.03);
+  padding: 1.5rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.07);
+  transition: 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-3px);
-  background: rgba(48, 0, 0, 1);
+  background: rgba(255,255,255,0.06);
 }
 
-/* Footer */
+/* ---------------------------------------
+   FOOTER
+----------------------------------------- */
+
 footer {
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid #b30000;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.95rem;
 }
 
 footer a {
-  color: #ff4d4d;
-  text-decoration: underline;
+  color: #f8c7c7;
+  text-decoration: none;
 }
 
-footer p {
-  margin: 0.3rem 0;
+footer a:hover {
+  text-decoration: underline;
 }

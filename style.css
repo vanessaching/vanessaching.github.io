@@ -60,7 +60,7 @@ nav .nav-links {
 nav a.nav-link {
   color: #ffffff;
   text-decoration: none;
-  font-family: "Playfair Display", serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.95rem;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -82,7 +82,7 @@ nav a.nav-link:hover {
 ----------------------------------------- */
 
 h1, h2, h3, h4 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.5px;
 }
 
